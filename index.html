@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Alecrim Restaurante</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header id="header">
+        <!--Parte do container superior contendo informações de telefone e email-->
+        <div class="row header-gradient d-none d-lg-block">
+            <div class="contact">
+                <div class="col-md-1 offset-md-6" style="text-align: right">
+                    <img src="assets/whats-icon.png" class="img-fluid" alt="whatsapp"
+                        style="padding: 12px 0; height: 6.5vh">
+                </div>
+                <div>
+                    <p style="margin-top: 1.2vh">
+                        <a style="color: rgb(46, 108, 114)" target="_blank"
+                            href="https://api.whatsapp.com/send?phone=5511969123996">
+                            <b style="font-size: 16px">(11) 96912-3996</b>
+                        </a>
+                    </p>
+                </div>
+                <div style="text-align: right; padding-left: 7vw">
+                    <img src="assets/email-icon.png" class="img-fluid" alt="email" style="padding: 12px 0; height: 6vh">
+                </div>
+                <div class="col-md-2">
+                    <p style="margin-top: 1.2vh">
+                        <b style="font-size: 16px; color: rgb(46, 108, 114)">contato@alecrimitupeva.com.br</b>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--Parte do container da logo-->
+        <div class="container">
+            <img src="assets/Alecrim_Logotipo.png" height="160vh" alt="logo">
+        </div>
+
+        <div id="controls" class="controls slide">
+            <div class="control-item">
+                <img class="d-block w-100" src="assets/slide.png" alt="slide 1">
+            </div>
+
+        </div>
+    </header>
+    <!--Parte do meio do site com hero image-->
+    <div class="container contact-img col-lg-12" style="text-align: center;">
+        <div class="row">
+            <div class="col-lg-12 slide-text col-md-12 col-sm-12 col-xs-12">
+                <h2>Entre em contato conosco agora mesmo!</h2>
+            </div>
+        </div>
+    </div>
+
+    <!--Sessão form de contato-->
+    <section id="contact" class="contact-form">
+        <div class="row">
+            <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2">
+                <div id="form">
+                    <div class="formulario-contato">
+                        <div style="text-align: center">
+                            <h1>Contato</h1>
+                            <hr>
+                            <div class="row" style="margin-right: 12px; margin-bottom: 55px">
+                                <div class="col-md-8 offset-md-2">
+                                    <p style="margin-top: 16px; font-size: 20px; color: rgb(46, 108, 114)">
+                                        <img src="assets/whats-icon.png" width="45vw" class="img-fluid" alt="whatsapp">
+                                        <a style="color: rgb(46, 108, 114)" target="_blank"
+                                            href="https://api.whatsapp.com/send?phone=5511969123996">
+                                            <b style="font-size: 20px">(11) 96912-3996</b>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                            <form class="form-contato" method="post" id="ajax_form" enctype="multipart/form-data">
+                                <div class="form-group">
+                                    <div class="col-sm-12" style="visibility: visible">
+                                        <input type="text" class="form-control" name="name" placeholder="Nome" required>
+                                    </div>
+                                    <div class="col-sm-12" style="visibility: visible">
+                                        <input type="text" class="form-control" name="email" placeholder="E-mail"
+                                            required>
+                                    </div>
+                                    <div class="col-sm-12" style="visibility: visible">
+                                        <input type="text" class="form-control" name="phone" placeholder="Telefone"
+                                            required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-12 text" style="padding: 5px">
+                                        <textarea class="form-control" name="message" rows="7"
+                                            placeholder="Mensagem" required></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-12" style="padding: 10vh">
+                                    <button type="submit" class="contact-button d-block mx-auto"
+                                        id="Enviar">Enviar</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Compartilhamento do local no google maps-->
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3668.377563495327!2d-47.04613768448324!3d-23.15641605264894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf30d9343695e1%3A0x87a6a684a6875d52!2sAlecrim!5e0!3m2!1spt-BR!2sbr!4v1620251913945!5m2!1spt-BR!2sbr"
+        width="600" height="450" style="width:100%; margin-bottom: -10px" allowfullscreen="" loading="lazy"></iframe>
+
+    <!--Area do Rodapé-->
+    <footer id="footer" class="footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-5 col-10">
+                    <div class="img-logo">
+                        <img src="assets/Alecrim_Logotipo.png" style="max-height: 20vh" class="img mx-auto d-block"
+                            alt="logo">
+                    </div>
+                </div>
+                <div class="col-12 col-lg-5 offset-md-1 col-md-5">
+                    <div class="col-lg-10 col-xs-10">
+                        <p style="margin-top: 16px;" class="footer-text">
+                            <a style="color: rgb(230, 231, 231)" target="_blank"
+                                href="https://api.whatsapp.com/send?phone=5511969123996">
+                                <b style="font-size: 20px">(11) 96912-3996</b>
+                            </a>
+                        </p>
+                    </div>
+                    <div class="col-lg-11 col-xs-12">
+                        <p style="margin-top: 16px" class="footer-text">
+                            <b style="font-size: 20px">contato@alecrimitupeva.com.br</b>
+                        </p>
+                    </div>
+                    <div class="col-lg-11 col-xs-12">
+                        <p style="margin-top: 5px">
+                        <p class="footer-text">R. João Sábio Gonsalves, 8 <br> Jardim Ana Luiza - Itupeva/SP <br>
+                            13295-000
+                        </p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row"
+            style="background-color: rgba(11, 27, 9, 0.808);padding-top: 2vh; padding-bottom: 0.5vh; width: 100%; margin: 0">
+            <div class="col">
+                <p>
+                    Copyright © Alecrim 2021. Todos os Direitos Reservados
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!--Scripts-->
+    <script src="./node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="./node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="http://areaaperta.com/nicescroll/js/jquery.nicescroll.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!--Script da animação do scroll-->
+    <script>
+        $(document).ready(function () {
+            $("html").niceScroll();
+        });
+    </script>
+    <!--Script botão com alert do formulário-->
+    <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                alert("Recebemos seu e-mail, em breve retornaremos");
+            });
+        });
+    </script>
+</body>
+
+</html>

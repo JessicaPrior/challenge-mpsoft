@@ -1,0 +1,27 @@
+{
+  "name": "challenge-mpsoft",
+  "version": "1.0.0",
+  "description": "Página de contato para um restaurante",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JessicaPrior/challenge-mpsoft.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JessicaPrior/challenge-mpsoft/issues"
+  },
+  "homepage": "https://github.com/JessicaPrior/challenge-mpsoft#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.6.0",
+    "jquery-confirm": "^3.3.4",
+    "popper.js": "^1.16.1",
+    "sweetalert2": "^10.16.7"
+  }
+}
